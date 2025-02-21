@@ -20,7 +20,7 @@ export default function Auth() {
         </SignedOut>
 
         <SignedIn>
-          <UserButton afterSignOutUrl="/" />
+          <UserButton afterSignOutUrl="/" /> <br />
           <button 
             onClick={() => navigate('/home')}
             className="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out"
